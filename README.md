@@ -10,3 +10,7 @@ I've also implemented methods with an "Inefficient" suffix. Their purpose is
 to require as much synchronization as possible in order to clearly show the
 difference in performance when using blocking synchronization and atomics.
 They are inefficient though.
+
+Here are the test results on my machine.
+
+![A graph showing the results of the measurements](results.png)
